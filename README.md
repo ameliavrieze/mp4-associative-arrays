@@ -1,8 +1,11 @@
 Associative Arrays
 ==================
 
-Starter code for a project on associative arrays.
+Author: Amelia Vrieze
+Class: CSC 207 Spring 2024
+Date: 2/28/24
+GitHub: https://github.com/ameliavrieze/mp4-associative-arrays
 
-_Students must replace the contents of this file with appropriate
-contents, including author and date._
-
+Acknowledgements: 
+Code forked from GitHub repo https://github.com/Grinnell-CSC207/mp4-associative-arrays
+Original author: Sam Rebelsky
