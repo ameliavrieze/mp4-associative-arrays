@@ -72,13 +72,17 @@ public class AssociativeArray<K, V> {
    * Convert the array to a string.
    */
   public String toString() {
-    String str = "";
+    String str = "{";
     for (int i = 0; i < this.size; i++) {
-      str += "" + i + ": " + this.pairs[i].toString() + "\n";
+      str += " " + this.pairs[i].key + ": " + this.pairs[i].value;
+      if (i < this.size - 1) {
+        str += ",";
+      }
     }
+    str += " }";
     return str; 
   } // toString()
-
+  
   // +----------------+----------------------------------------------
   // | Public Methods |
   // +----------------+
